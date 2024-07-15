@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+canvas {
+    background: rgb(0, 0, 0);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.remap {
+    z-index: 1;
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    display: flex;
+}
+
+.remap * {
+    color: white;
+    padding: 10px;
+}
+
+/* CORDENADAS */
